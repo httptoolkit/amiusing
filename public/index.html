@@ -18,12 +18,13 @@
 
             body {
                 min-height: 100%;
-                background-color: #d8e2e6;
+                background-color: #e1421f;
                 font-family: Lato;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                color: #efefef;
             }
 
             .content {
@@ -34,14 +35,17 @@
                 font-size: 36pt;
             }
 
+            strong {
+                font-weight: bold;
+            }
+
             p {
                 font-size: 18pt;
             }
 
-            .logo {
-                display: block;
-                margin: 40px auto;
-                width: 200px;
+            a {
+                color: #efefef;
+                font-weight: bold;
             }
         </style>
     </head>
@@ -49,16 +53,15 @@
         <div class="content">
             <h1>You're not being intercepted by HTTP Toolkit</h1>
             <p>This response came from a real server, and wasn't intercepted by HTTP Toolkit.</p>
+            <p><strong>If you're trying to use HTTP Toolkit, this means that something is configured incorrectly.</strong></p>
             <p>
-                If you're trying to use HTTP Toolkit, that means something isn't configured quite right.
                 Make sure the proxy settings in your browser (or other HTTP client) match your HTTP Toolkit
                 settings. You can check the settings in the 'Anything' option on the Intercept page.
             </p>
             <p>
-                If you're not trying to use HTTP Toolkit, then you're all good. You can
-                try it out though if you're interested at <a href="https://httptoolkit.tech">HttpToolkit.tech</a>.
+                If you're not trying to use HTTP Toolkit, then you're all good, and you don't need to worry about this.
+                You can try it out though if you're interested at <a href="https://httptoolkit.tech">HttpToolkit.tech</a>.
             </p>
-            <img src='./icon.png' class="logo" />
         </div>
     </body>
 </html>
