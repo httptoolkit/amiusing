@@ -3,3 +3,8 @@
   [headers.values]
     Strict-Transport-Security = "max-age=0"
     Cache-Control = "no-store"
+
+[[redirects]]
+  from = "/certificate-test"
+  to = "/certificate-404.html"
+  status = 404
