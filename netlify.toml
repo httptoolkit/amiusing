@@ -5,6 +5,6 @@
     Cache-Control = "no-store"
 
 [[redirects]]
-  from = "/certificate-test"
+  from = "/certificate"
   to = "/certificate-404.html"
   status = 404
